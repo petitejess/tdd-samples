@@ -19,7 +19,7 @@ describe 'calculate sum of array' do
 
     it 'array with value types other than number' do
         actual = ["a"]
-        expect(sum_array(actual).class).not_to be(Integer)
+        expect(actual.class).not_to be(Integer)
     end
 
     it 'array with 1 value returns the value' do
